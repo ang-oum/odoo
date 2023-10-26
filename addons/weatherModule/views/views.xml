@@ -1,0 +1,17 @@
+<odoo>
+    <record id="view_weather_form" model="ir.ui.view">
+        <field name="name">weather.form</field>
+        <field name="model">weather.weather</field>
+        <field name="arch" type="xml">
+            <form string="Weather">
+                <sheet>
+                    <group>
+                        <field name="city"/>
+                        <field name="duration"/>
+                        <field name="weather_data"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

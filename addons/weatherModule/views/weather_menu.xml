@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.actions.act_window" id="action_nursery_plant">
+        <field name="location">Location</field>
+        <field name="duration">Duration</field>
+    </record>
+
+    <menuitem name="Weather Wizard" id="ww_root_menu"/>
+
+    <menuitem name="Locations" id="location_menu"
+              parent="ww_root_menu"
+              action="action_location"
+              sequence="1"/> 
+
+
+</odoo>
